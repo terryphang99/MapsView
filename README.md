@@ -1,2 +1,2 @@
-# PlasView
-Python package for viewing hyperspectral cathodoluminescence data
+# MapsView
+Python package for viewing hyperspectral cathodoluminescence maps
