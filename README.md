@@ -1,2 +1,2 @@
 # MapsView
-Python package for viewing hyperspectral cathodoluminescence data
+Python package for viewing hyperspectral cathodoluminescence maps
