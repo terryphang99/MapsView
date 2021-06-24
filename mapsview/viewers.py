@@ -15,7 +15,7 @@ hv.extension('bokeh')
 # from plasview.utils import hdf2xds, get_ranges, stretch_arr, get_percentiles, get_extents
 # from specview.hooks import y_bare_hook, transp_hook
 
-from plasview.utils.odemis_file_utils import hdf2xds, get_wavelengths1
+from mapsview.utils.odemis_file_utils import hdf2xds, get_wavelengths1
 # from plasview.utils.functions import maps
 # from plasview.utils.odemis_file_utils import get_extrema
 
