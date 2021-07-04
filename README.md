@@ -1,6 +1,8 @@
 # MapsView
 Python package for visualization and analysis of hyperspectral cathodoluminescence datasets
 
+MapsView takes hdf5 data files as input
+
 Files and Notebooks:
 - Example.ipynb = example of calling classes in viewers.py
 - viewers.py = classes written for visualization and analysis
