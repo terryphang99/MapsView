@@ -46,7 +46,7 @@ class BaseModeViewer(param.Parameterized):
         """
         avg_bkg = (self.xds.isel(x=0, y=0) + self.xds.isel(x=-1, y=0))/2
         I_xarr_bkgsub = self.img_data-avg_bkg
-        minimum = np.min(I_xarr_bkgsub)
+        minimum = I_xarr_bkgsub.min()
         I_xarr_bkgsub = I_xarr_bkgsub-minimum
         return I_xarr_bkgsub.cts
         
